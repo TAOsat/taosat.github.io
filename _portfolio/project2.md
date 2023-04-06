@@ -5,8 +5,8 @@ image: assets/img/portfolio/01-full.jpg
 alt: Drone Flight 2023
 
 caption:
-  title: TAOsat update
-  subtitle: Drone flight of 2022-07-12.
+  title: TAOsat update 2
+  subtitle: Drone flight of 2023.
   thumbnail: assets/img/portfolio/01-thumbnail.jpg
 ---
 ORION has a TAOsat project group composed of Makhan Virdi, Rob Scott, Dave Rauen, Carl Lyster, and David Fields.  The project is to build a CubeSat, TAOsat, that will detect and record radio astronomy data from above the ionosphere, process the data in orbit, and relay it back to researchers on the ground.
