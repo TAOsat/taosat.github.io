@@ -1,0 +1,338 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: "TAOsat: Capturing VLF Whistlers"
+    text: TAOsat
+    button: Learn More
+    buttonlink: "#services"
+
+  services:
+    title: "TAOsat"
+    text: "Overview of the cubesat"
+    section: services
+    list:
+      - title: "Hardware"
+        desc: "Antenna, Receiver, and Mainboard designed in-house."
+        icon: fas fa-microchip #find more at https://fontawesome.com/icons
+      - title: "Software"
+        desc: "Onboard VLF whistler detection."
+        icon: fas fa-code
+      - title: "[Science](https://en.wikipedia.org/wiki/Whistler_(radio))"
+        desc: "Basics of VLF **Whistlers**."
+        icon: fas fa-globe
+
+  portfolio:
+    title: "Updates"
+    text: "Project updates on cubesat research and development."
+    section: portfolio
+    closebutton: "Close Project"
+
+  timeline:
+    title: "Timeline"
+    text: "Project milestones over years"
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "TAOsat Beginnings"
+        year: "2017"
+        desc: "Conceptualization and early prototyping"
+        image: assets/img/timeline/1.jpg
+        alt:
+      - title: "Test Flights - Balloons"
+        year: "2018-2022"
+        desc: "Multiple balloons flights for testing hardware and communication "
+        image: assets/img/timeline/3.jpg
+        alt: image alt text
+      - title: "Receiver and Antenna"
+        year: "2022-2023"
+        desc: "Development of Receiver Board"
+        image: assets/img/timeline/4.jpg
+        alt:
+        # you can enforce the alignment
+        align: left
+    end: "Ad <br> Astra!"
+
+  about:
+    title: "About Us"
+    text: "A citizen science initiative"
+    body: "We are a group of Scientists, Engineers, and Makers with an aim to create an Open Source cubesat to study VLF signals."
+    section: about
+
+  clients:
+    section: clients
+    max-height: 80px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "TAO"
+        url: https://github.com/TAOsat
+        logo: assets/img/clients/TAO-RSCC.png
+      - title: "ORION"
+        url: https://orionastronomy.wordpress.com
+        logo: assets/img/clients/ORION.jpg
+      - title: "KnoxMakers"
+        url: https://knoxmakers.org
+        logo: assets/img/clients/KM.jpg
+      - title: "Scott Systems"
+        url: http://www.scottsystems.net/index.php
+        logo: assets/img/clients/ScottSystemsLogoBanner.gif
+
+  team:
+    title: "OUR TEAM"
+    text: "TAOsat team"
+    subtext: "TAOsat team"
+    section: team
+    #David Fields, Carl Lyster, Dave Rauen, Rob Scott, Makhan Virdi
+    people:
+      - name: "David Fields"
+        role: "Director, TAO Observatory"
+        image: assets/img/team/david.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Rob Scott"
+        role: "Hardware SME, Scott Systems"
+        image: assets/img/team/rob.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Makhan Virdi"
+        role: "Software SME"
+        image: assets/img/team/makhan.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Dave Rauen"
+        role: "VLF Science"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Carl Lyster"
+        role: "Power System and Solar Panels"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+
+  contact:
+    title: "Contact Us"
+    text: "Reach out to learn more"
+    section: contact
+    name: "Name*"
+    name-validation: "Please enter your name."
+    email: "Email*"
+    email-validation: "Please enter your email address."
+    phone: "Phone Number"
+    phone-validation: "Please enter your phone number."
+    message: "Message*"
+    message-validation: "Please enter a message."
+    subject: "Contact Form Submission"
+    submit: "Send Message"
+
+  footer:
+    legal: "Privacy Policy"
+    social:
+      - url: https://twitter.com/akashwani
+        icon: "fab fa-twitter"
+      # - url: https://facebook.com
+      #   icon: "fab fa-facebook-f"
+      # - url: https://linkedin.com
+      #   icon: "fab fa-linkedin-in"
+      # - url: https://github.com/raviriley/agency-jekyll-theme
+      #   icon: "fab fa-github"
+      # - url: https://instagram.com
+      #   icon: "fab fa-instagram"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+# Spanish
+# -------
+es: &DEFAULT_ES
+  header:
+    title: ¡Bienvenido a nuestro Estudio!
+    text: Es un placer conocerle
+    button: Ver más
+    buttonlink: "#servicios"
+
+  services:
+    title: "Servicios"
+    text: "Lorem ipsum"
+    section: servicios
+    list:
+      - title: "Comercio Electrónico"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+      - title: "Diseño Responsivo"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-laptop
+      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+        desc: "Su descripción aquí, soporte completo de **Markdown**"
+        icon: fab fa-markdown
+
+  portfolio:
+    title: "Portafolio"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    section: portafolio
+    closebutton: "Cerrar Proyecto"
+
+  timeline:
+    title: "Cronología"
+    text: "Lorem ipsum timeline"
+    section: cronologia
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "Nuestro Humilde Comienzo"
+        year: "2009-2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/1.jpg
+        alt:
+      - title: "Una Agencia nace"
+        year: "March 2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/2.jpg
+        alt:
+      - title: "La plantilla Jekyll es creada"
+        year: "2019"
+        desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
+        image: assets/img/timeline/3.jpg
+        alt: image alt text
+      - title: "Título"
+        year: "2009-2011"
+        desc: "Su descripción aquí, **Markdown** es soportado completamente."
+        image: assets/img/timeline/4.jpg
+        alt:
+        # you can enforce the alignment
+        align: right
+    end: "¡Se parte <br> de Nuestra <br> Historia!"
+
+  # about:
+  #   title: "Sobre nosotros"
+  #   text: "nuestra historia"
+  #   body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+  #   section: nosotros
+
+  clients:
+    section: clientes
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "envato"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/envato.jpg
+      - title: "designmodo"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/designmodo.jpg
+      - title: "themeforest"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/themeforest.jpg
+      - title: "Creative Market"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/creative-market.jpg
+
+  team:
+    title: "NUESTRO INCREÍBLE EQUIPO"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    section: equipo
+    people:
+      - name: "Kay Garland"
+        role: "Lead Designer"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Larry Parker"
+        role: "Lead Marketer"
+        image: assets/img/team/2.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Diana Perterson"
+        role: "Lead Developer"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+
+  contact:
+    title: "Contáctenos"
+    text: "Lorem ipsum or call 123456789"
+    section: contacto
+    name: "Nombre*"
+    name-validation: "Por favor ingrese su nombre."
+    email: "Correo Electrónico*"
+    email-validation: "Por favor ingrese su correo electrónico."
+    phone: "Número Telefónico*"
+    phone-validation: "Por favor ingrese su número telefónico."
+    message: "Mensaje*"
+    message-validation: "Por favor escriba un mensaje."
+    subject: "Envío del formulario de contacto"
+    submit: "Enviar Mensaje"
+
+  footer:
+    legal: "Política de Privacidad"
+    social:
+      - url: https://twitter.com
+        icon: "fab fa-twitter"
+      - url: https://facebook.com
+        icon: "fab fa-facebook-f"
+      - url: https://linkedin.com
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/raviriley/agency-jekyll-theme
+        icon: "fab fa-github"
+      - url: https://instagram.com
+        icon: "fab fa-instagram"
+es-ES:
+  <<: *DEFAULT_ES
+es-CO:
+  <<: *DEFAULT_ES
